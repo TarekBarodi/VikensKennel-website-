@@ -1,0 +1,171 @@
+header {
+	text-align: center;
+	font-family: arial;
+	color: white;
+	background-color: black;
+	border: solid gray 1px;
+
+}
+
+/*Five definitions will be required in the css file to succeed with the menu. The 
+<nav> element (1) must first be defined, then the 
+<ul> list (2), and its 
+<li> option (3), then define the 
+<a> links (4) and how they should behave 
+(hover , active, focus) (5)....Let's start with the<nav> element */
+
+nav {
+	text-align: center;
+	border: solid gray 1px;
+	background-color: white;
+	height: 29px;
+	width: 100%;
+}
+
+ul {
+	list-style: none;   /*is used to remove the item that usually appears in a disordered list*/
+	padding: 0px;
+	margin: 0px;
+}
+
+/* List items are by default a block element, which means that each <li> element starts on a new row. 
+   Through the display property "display: inline;" we convert this behavior to an inline element instead, and 
+   everything comes on the same line. */
+li {
+	display: inline;   
+}
+
+
+a {
+	font-family: arial;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: yellow;
+	padding-right: 15px;      /* giving a space between the link */
+	margin: 5px;
+}
+
+a:hover, a:active; a:focus {
+	background-color: red;
+	color: yellow;
+}
+
+a:link {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: gray;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color: brown;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+main {
+	color: white;
+	font-family:arial;
+	background-color: black;
+	min-height: 50%;
+	border: solid gray 1px;
+	min-height: 600px;
+}
+
+img {
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-family: arial;
+	border: solid gray 1px;
+}
+
+div#phone {
+	background-color: black;
+	margin: 10px;
+	padding: 10px;
+	width: 28%;
+	height: 55px;
+	float: left;
+}
+
+div#address {
+	background-color: black;
+	margin: 10px;
+	padding: 10px;
+	width: 28%;
+	height: 55px;
+	float: left;
+}
+
+div#email {
+	background-color: black;
+	margin: 10px;
+	padding: 10px;
+	width: 28%;
+	height: 55px;
+	float: left;
+}
+
+.welcome {
+	margin-left: 20px;
+}
+
+/* connected to class */
+.news{
+	background-color: gray;
+	color: white;
+	padding: 10px;
+	border: ;
+	margin: 20px;
+	width: 40%;
+}
+ 
+p, h1, h2, h3, h4 {
+	padding: 20px;
+}
+
+span.changeTextColor {
+	color: yellow;
+}
+
+a#a01 {
+	font-size: 1em;
+}
+
+table,th,td {
+			text-align: center;
+			border: 1px solid white;
+			border-collapse: collapse;
+		}
+
+table {
+		width: 100%
+}
+
+h1#mira {
+	text-align: center;
+}
+
+img#contactImage {
+	float:right; 
+	width:500; 
+	height:373;
+}
